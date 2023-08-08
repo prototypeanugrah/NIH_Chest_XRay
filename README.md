@@ -14,14 +14,14 @@ Dataloader transforms applied
     3. Convert the image to tensors
     4. Normalize the images to bring them on a similar scale and stabilize the network
 
-**2. Model**
+**2. Model** <br>
     1. Pre-trained DenseNet121 model is used from the PyTorch library with a custom classification layer
     2. The 3 methodologies followed are -
       1. Baseline testing - calculate the AUROC score on the model without training either the classification or model layers
       2. Classifier training - train only the classifier layer and calculate the AUROC score
       3. Model training - train the entire model's layers including the classifier layer and calculate the AUROC score
 
-**3. Output -**
+**3. Output** <br>
 The model is trained on only 10000 images and tested on 500 images.
 The AUROC scores of the above 3 methodologies are -
     1. baseline testing - Mean AUROC score of 0.512
