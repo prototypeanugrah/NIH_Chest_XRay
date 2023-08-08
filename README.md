@@ -2,9 +2,9 @@
 
 Chest X-Ray multi-label classification
 
-The project uses the NIH Chest X-Ray 8 (CXR8) dataset which comprises 108,948 frontal-view X-ray images of 32,717 (collected from the year 1992 to 2015) unique patients with the text-mined eight common disease labels, mined from the text radiological reports via NLP techniques. The dataset can be found [here]([url](https://nihcc.app.box.com/v/ChestXray-NIHCC)). 
+The project uses the NIH Chest X-Ray 8 (CXR8) dataset which comprises 108,948 frontal-view X-ray images of 32,717 (collected from the year 1992 to 2015) unique patients with the text-mined eight common disease labels, mined from the text radiological reports via NLP techniques. The dataset can be found [here](https://nihcc.app.box.com/v/ChestXray-NIHCC).
 
-The project aims to implement the [CheXNet]([url](https://arxiv.org/abs/1711.05225)) paper using the PyTorch framework.
+The project aims to implement the [CheXNet](https://arxiv.org/abs/1711.05225) paper using the PyTorch framework.
 
 Process flow of the project -
 
